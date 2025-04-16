@@ -1,7 +1,7 @@
 # Amazon Nokia Reviews Analysis
 
 ## Project Overview
-This README summarizes our comprehensive analysis of Nokia product reviews on Amazon. We examined various aspects of the review data to understand customer feedback, identify sentiment, and develop recommendation strategies.
+This project analyzes Amazon reviews for Nokia products using a combination of data analysis, sentiment classification (via Logistic Regression, Naive Bayes, SVC, and Random Forest), and text clustering with TF-IDF and K-Means to identify key product clusters. Additionally, it implements a product recommendation system, neural collaborative filtering with PyTorch, Word2Vec-based feature extraction, and constructs a negative review knowledge graph to capture product-feature relationships.
 
 ## Main Components
 
