@@ -14,6 +14,8 @@ This README summarizes our comprehensive analysis of Nokia product reviews on Am
   - Analyzed 68,040 unique users (after filtering out "unknown" users).
 - **Review Length Patterns:**  
   - Calculated an average review length of 103 words.
+ ![box_review_leghth](https://github.com/user-attachments/assets/fee392e9-3ab8-4178-b9ac-00fc4d3bd067)
+ 
 
 ### Sentiment Analysis
 - **Classification:**  
@@ -23,6 +25,7 @@ This README summarizes our comprehensive analysis of Nokia product reviews on Am
 - **Results:**  
   - Achieved 85% accuracy with Logistic Regression.
   - Identified key words strongly associated with positive and negative sentiments.
+![confusion_matrix](https://github.com/user-attachments/assets/8781bd47-1709-4f1d-85fb-2b3b967e8713)
 
 ### Text Clustering Analysis
 - **Methodology:**  
@@ -34,6 +37,8 @@ This README summarizes our comprehensive analysis of Nokia product reviews on Am
     - Phones and Electronics
     - Bluetooth Headsets
     - Phone Batteries
+     ![clusters](https://github.com/user-attachments/assets/19d722f6-18df-4334-b1e7-789973e6448f)
+
 
 ### Product Recommendation System
 - **Approach:**  
@@ -41,6 +46,7 @@ This README summarizes our comprehensive analysis of Nokia product reviews on Am
 - **Techniques:**  
   - Created similarity measurements between product clusters.
   - Implemented composite scoring based on ratings, review count, and helpfulness.
+![graph_recommendation](https://github.com/user-attachments/assets/071b4861-02a5-494a-a40d-128f54e9c9ca)
 
 ### Neural Collaborative Filtering (NCF)
 - **Model Details:**  
@@ -58,6 +64,7 @@ This README summarizes our comprehensive analysis of Nokia product reviews on Am
   - Extracted key product features based on semantic similarity.
 - **Recommendations:**  
   - Developed product recommendations based on the semantic similarities between word embeddings.
+![word_embedding_visualization](https://github.com/user-attachments/assets/d81c63d7-3525-4c52-bfae-62a2373e56c3)
 
 ### Negative Review Knowledge Graph
 - **Graph Construction:**  
